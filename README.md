@@ -16,3 +16,6 @@ x Files
 
 Marlin firmware
 - This contains the necessary instructions to reflash and modify the Marlin firmware on your Ender-3. There is an option to just download the firmware configuration we used if you do not wish to do this yourself.
+
+Python code 
+- This contains the Python code for generating G-code tailored for use with an Ender-3 3D printer and a well plate.
