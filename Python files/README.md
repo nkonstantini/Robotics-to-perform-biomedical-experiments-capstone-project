@@ -7,4 +7,5 @@ https://www.python.org/downloads/
 
 ## Pip packages to download
 pip install notebook
+
 pip install voila
