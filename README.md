@@ -11,8 +11,12 @@ STL files
 CAD files
 - This contains all the CAD files we used, in case you wish to modify the design. Note that we do not have all the STL files available as CAD files.
 
-x Files
+x files
 - This contains all the files for the laser-cut parts
 
 Marlin firmware
 - This contains the necessary instructions to reflash and modify the Marlin firmware on your Ender-3. There is an option to just download the firmware configuration we used if you do not wish to do this yourself.
+
+Python files
+- This contains Python files that can generate and export G-code for beginners.
+- This contains Python files that can capture the webcam output.
