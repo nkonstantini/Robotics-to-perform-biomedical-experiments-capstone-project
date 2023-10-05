@@ -3,7 +3,10 @@ This repository contains all the design files, firmware modifications, and code 
 
 ## Folders:
 Materials
-- The includes the Bill of Materials used in this project.
+- This includes the Bill of Materials used in this project.
+
+Build instructions
+- This contains the full instructions in order to build this design yourself.
 
 STL files
 - This contains all the ready-to-print Fusion360 files we have used in the design.
