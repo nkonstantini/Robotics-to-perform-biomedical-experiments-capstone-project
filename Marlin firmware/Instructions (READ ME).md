@@ -68,7 +68,7 @@ Comment out:
 //   #error "Creality V4 only supports one hotend / E-stepper. Comment out this line to continue."
 // #endif
 
-** When the above changes have been made **:
+**When the above changes have been made**:
 1. Open Auto Build Marlin
 2. Choose the environment that corresponds to your CPU type (to find out your CPU type, open up the motherboard case and look at the writing on the CPU. This text should correspond with one of the options listed in the environments section.
 3. Click the 'Build' button next to the environment chosen. The next time you modify the firmware, this selection will be highlighted in green.
