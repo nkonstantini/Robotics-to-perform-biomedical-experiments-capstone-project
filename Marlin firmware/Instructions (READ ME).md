@@ -5,7 +5,7 @@ If you wish to modify the firmware, follow the instructions for **Part B and Par
 
 ## Part A: Reflashing the firmware
 1. Download the ‘final_firmware.bin’ file provided in the Marlin firmware folder (note that this is derived from Marlin bugfix 2.1x version on on Marlin's github page)
-2. Copy the .bin file onto a blank microSD card
+2. Copy the .bin file onto a blank microSD card (**Note: reflashing will NOT work if the microSD card is not blank**)
 3. Eject the microSD card
 4. Insert the microSD card into the Ender-3’s microSD port
 5. Turn on the printer. If the printer prompts you to update or reset the EEPROM.dat, click yes
