@@ -21,7 +21,7 @@ Note that the following video is a very useful guide and **should be watched pri
 <img src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/e06a6f3a-86c4-454e-9173-977b253af538" height="300">
 
 3. Repeat step 2, but this time search for and install ‘PlatformIO’ 
-4. Open Marlin's github page. Click on the ‘Code’ tab, then click ‘Download zip’
+4. Open [Marlin's GitHub page](https://github.com/MarlinFirmware/Marlin). Click on the ‘Code’ tab, then click ‘Download zip’
 
 <img src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/20c55c48-dbfd-4b2b-846c-40c46bc203fd" height="400">
 
