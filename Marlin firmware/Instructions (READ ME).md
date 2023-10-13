@@ -41,6 +41,9 @@ Open the following files in VS code, and search for the following lines using Co
 
 #define I_MIN_POS 0
 
+
+#define X_BED_SIZE 240 //changed from 235 to 240 to account for tool changing
+
 #define I_MAX_POS X_BED_SIZE
 
 #define I_HOME_DIR -1
