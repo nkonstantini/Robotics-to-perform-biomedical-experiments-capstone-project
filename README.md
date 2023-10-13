@@ -10,6 +10,7 @@ Build instructions
 
 STL files
 - This contains all the ready-to-print Fusion360 files we have used in the design.
+- Some parts have been sourced from Sukukumar (2023) and [stratop80 (2015)](https://www.thingiverse.com/thing:1071695/files)
 
 CAD files
 - This contains all the CAD files we used, in case you wish to modify the design. Note that we do not have all the STL files available as CAD files.
