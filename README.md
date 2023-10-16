@@ -15,8 +15,8 @@ STL files
 CAD files
 - This contains all the CAD files we used, in case you wish to modify the design. Note that we do not have all the STL files available as CAD files.
 
-x files
-- This contains all the files for the laser-cut parts
+Laser cut files
+- This contains the file for all the laser-cut parts in 3 different file types (.pdf, .dxf and .cdr)
 
 Marlin firmware
 - This contains the necessary instructions to reflash and modify the Marlin firmware on your Ender-3. There is an option to just download the firmware configuration we used if you do not wish to do this yourself.
