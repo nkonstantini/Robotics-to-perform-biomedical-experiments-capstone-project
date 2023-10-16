@@ -9,13 +9,14 @@ https://www.python.org/downloads/
 Installation notes
 To run this notebook you will need to install several packages, including Voila and Pygcode.
 
-Voila can be installed via Conda: linked reference
+1. Voila can be installed via Conda: linked reference
 conda install -c conda-forge voila
 or with pip:
-
 pip install voila
-Python-Gcode can be installed via pip only: linked reference
+
+2. Python-Gcode can be installed via pip only: linked reference
 pip install pygcode
-Python widgets can be installed via pip only: linked reference
+
+3. Python widgets can be installed via pip only: linked reference
 pip install ipywidgets
 
