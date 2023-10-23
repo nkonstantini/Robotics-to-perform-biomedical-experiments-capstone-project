@@ -11,73 +11,27 @@ Original (Sukukumar’s) design | Ender-3 | Creality Ender-3 Desktop 3D Printer 
 | | M5x40 screws | | 4 | TCS | -
 | | M3x10 screws | | 4 | TCS | - 
 | | Springs | Creality Ender-3 steel heatbed springs | 4 | Ebay | 5.99
-| | Tube | Syringe tube, 75cm microbore extension length | 1 | Joya Medical Supplies | 1.5
+| | Tube | Syringe tube, 75cm microbore extension length | 1 | Joya Medical Supplies | 1.50
 | | Disposable Syringe | Disposable syringe size: 5, 10 and 20 mL | 3 | Laboratory | -
 | | Needle | 8Gx1.5” | 3 | Laboratory | -
 | | M3 counter-sunk screw | | 2 | TCS | -
 | | 96-well plate | Costar | 1 | Laboratory | -
+| | Magnets | Neodynium disc magnets, 5x2mm | 4 | Ebay | 10
+| | Isopropyl alcohol | | |-| Laboratory | -
+| | Superglue | | | -| TCS | -
+| Updated design | microSD card | 8gB | 2 | Ebay | 7.98
+| | GT2 timing belt | 6mm width, 2mm tooth pitch, rubber, 1m length | 1 | Aus3D | 3.95
+| | Stepper Motor | Stepper motor 42-34 (Motor size: 42 * 42 * 34 mm) for Ender-3 y-axis | 1 | 3DPO Online | 23.95
+| | Capacitor | 100µF, 35V or 50V rating | 1 | TCS | -
+| | Dupont wires | Male-male | 10 | TCS | -
+| | Dupont wires | Female-male | 4 | TCS | -
+| | TMC2208 Stepper motor driver | MPN 1x | 2 | Ebay | 25.90
+| | PCB Soldering board | 5x5cm | 1 | TCS | -
+| | Extension screen cable | For Ender-3, 200cm length | 1 | Amazon AU | 7.99
 
 _Note: TCS is a university workshop_ 
 
 
-
-Magnets
-Neodynium disc magnets, 5x2mm
-4
-
-
-Isopropyl alcohol
-
-
-
-
-Laboratory
-Superglue
-
-
-
-
-TCS
-Updated design
-microSD card 
-8gB 
-2
-Ebay
-GT2 timing belt
-6mm width, 2mm tooth pitch, rubber, 1m length
-1
-Aus3D
-Stepper Motor
-Stepper motor 42-34 (Motor size: 42 * 42 * 34 mm) for Ender-3
-1
-3DPO Online
-Capacitor
-100µF, 50V rating
-1
-TCS
-Dupont wires 
-Male-male 
-10 
-TCS
-Female-male
-4 
-TCS
-TMC2208 Stepper motor driver
-MPN 1x
-2
-Ebay
-Stepper motor
-Ender-3 y-axis stepper motor
-1
-3D Printers Online
-Soldering board 
-5x5cm
-1
-TCS
-Extension screen cable
-For Ender-3, 200cm length
-1
-Amazon AU
 Extension power cord
 XT60, 14AWG, 30cm length
 2
