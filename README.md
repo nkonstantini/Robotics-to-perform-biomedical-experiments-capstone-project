@@ -2,10 +2,9 @@
 This repository contains all the design files, firmware modifications, and code used for this capstone project in order for you to replicate our work
 
 ## Folders:
-Materials
-- This includes the Bill of Materials used in this project.
 
 Build instructions
+-  This includes the Bill of Materials used in this project, as well as any tools required.
 - This contains the full instructions in order to build this design yourself.
 
 STL files
