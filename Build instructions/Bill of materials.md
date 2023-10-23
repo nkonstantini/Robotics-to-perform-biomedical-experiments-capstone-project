@@ -60,6 +60,9 @@
 | |Polylactic acid (PLA) spool|dimensions|length|supplier
 | | Trefolex cutting compound|For tapping holes|1|TCS|-
 | | Hygrometer|Measures temperature and humidity|1|Ebay|8.99
+| | | | |**Total cost**| **$636.67**
+
+
 
 _Note: TCS is a university workshop_ 
 
