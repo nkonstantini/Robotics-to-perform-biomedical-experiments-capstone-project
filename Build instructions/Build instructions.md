@@ -601,3 +601,6 @@ NOTE 1 The height of the reservoir tubes is considered in the G-code therefore t
 no need to adjust the Z-axis limit switch.
 
 # Part 3: Assembling the updated design (tool-switching mechanism and circuit, waterproofing techniques)
+Circuit Construction for the Additional Stepper Motor
+To access information regarding the circuit build for the additional stepper motor, kindly refer to the specific Reddit page designated for this purpose.
+https://www.reddit.com/r/ender3v2/comments/qzxsok/i_added_a_5th_stepper_driver_to_the_stock/ 
