@@ -57,15 +57,12 @@
 | | Blunt needle|8Gx1.5” (for applying the conductive grease to the ports) |1|Laboratory|-
 | | Zap-A-Gap Bonder| (for gluing in magnets and syringe mount into tool mount)|1|TCS|-
 | |Garbage bags|Large, black, polyethylene|2|Laboratory|-
-| |Polylactic acid (PLA) spool|dimensions|length|supplier
+| |Polylactic acid (PLA) spool|1.75mm diameter, orange, PLA+ filament|1kg|eSUN|39.95
 | | Trefolex cutting compound|For tapping holes|1|TCS|-
 | | Hygrometer|Measures temperature and humidity|1|Ebay|8.99
-| | | | |**Total cost**| **$636.67**
-
-
+| | | | |**Total cost**| **$676.62**
 
 _Note: TCS is a university workshop_ 
-
 
 ## Table 2: List of tools used for the final design
 |Tool|Description|
