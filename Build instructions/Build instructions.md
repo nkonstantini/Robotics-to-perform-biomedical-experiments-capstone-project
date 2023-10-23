@@ -429,6 +429,175 @@ Syringe Carriage (see Fig. 38).
 
 ![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/8c4a6cf1-dba2-489d-b625-d483c315f0e0)
 
+Step 7.8.2: Insert M5 nut into the Syringe Carriage
 
+Fix the leadscrew to the Syringe Carriage using an M5 nut. Lay the assembly with the
+inserted leadscrew on its side and push in the M5 nut (see Fig. 39a, NOTE 6), centering
+it with the trough-hole for the leadscrew. As shown in Fig. 39c, thread the leadscrew
+through the M5 nut.
 
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/2f5ef326-c0ed-4dc6-b231-28a75c33c36d)
 
+NOTE 6 To push the nut it is useful to use a hex key (see Fig. 39b)
+
+Step 7.9: Install the shaft coupler
+
+The shaft coupler is a mechanical component that connects the Stepper motor and leadscrew. It transmits the rotational movement of the motor to the leadscrew.
+Install the shaft coupler onto the Stepper motor by tightening the two grub screws (circled
+in green in Fig. 41a and 41b). Thread the leadscrew up to the shaft coupler (see Fig. 40).
+To connect the leadscrew to the shaft coupler, tighten the other grub screws (circled in
+orange in Fig. 41a and 41b, NOTE 7). 
+
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/27faeee5-b687-42fb-b103-048740119826)
+
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/8d74bbfe-7474-45d7-889f-921af9326adc)
+
+NOTE 7 Rotate the shaft coupler to reach the two grub screws on the other side.
+
+Step 7.10: Install the Syringe Clamp Fastener (for high viscosity liquids)
+
+The Syringe Clamp Fastener secures the syringe in addition to the Syringe Clamping
+Mechanism (spring). Especially when dispensing liquids with higher viscosity, this clamp
+prevents the disposable syringe from bending for liquids with a maximum dynamic viscosity of 500 mPas.
+NOTE 8 Without attaching the Clamp Fastener, the syringe barrel is only secured by the
+Syringe Clamping Mechanism. Then the Syringe Pump can dispense liquids with a maximum dynamic viscosity of 250 mPas without error.
+Step 7.10.1: Attach the Clamp Fastener to the Syringe End Mount
+Insert the two M5 x 40 mm screws, which are partially threaded, into the holes in the
+Clamp Fastener, and then insert the Clamp with the two screws into the holes at the top
+of the Syringe End Mount (see Fig. 43, NOTE 9).
+
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/1a156cbb-894b-436d-b43d-3882a6605cab)
+
+NOTE 9 Do not completely tighten the Clamp Fastener to the Syringe End Mount
+
+Step 7.10.2: Fasten the Syringe
+
+Insert the syringe into the Syringe Pump as shown in Fig. 44(A). Push the clamp down
+till it touches the syringe (see Fig. 44 (B)), and finally, tighten the two M5 screws until the
+syringe is secured (see Fig. 44 (C), NOTE 11).
+
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/177bf8b6-2be7-4cbe-b673-68cd1b7c1a32)
+
+Fig. 44: Clamp process with Syringe Clamp Fastener: (A) Insert Syringe, (B) Push Fastener down, (C) Tighten screws
+Some elements from the Ender-3 will be extracted during the build Steps. It is recommended to keep these parts safe, as there is always the possibility of converting PADL
+back to Ender-3.
+
+**Step 8: Connect the syringe pump to the Ender 3**
+
+The extruder (E) of the Ender-3 is redundant for PADL. Therefore, the E-cable can be
+unplugged from the Stepper motor (other end is still plugged into the motherboard) and
+plug it into the Stepper motor of the syringe pump.
+
+Step 8.1: Remove the connector from Extruder Stepper Motor
+
+To remove the E-cable from the Stepper motor (Fig. 45b), pull the connector (circled in
+yellow in Fig. 45a) attached to the motor.
+
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/b0c69298-f950-4605-831a-347c857e580c)
+
+NOTE 1 The orange label (see Fig. 45a circled in yellow) on the cables indicate in which
+Stepper motor or limit switch the cable is plugged into. The E on the yellow circled cable
+marks the Extruder cable.
+
+Step 8.2: Connect the E-cable to the syringe pump
+
+Position the Syringe Pump on the left side of the Ender-3 as shown in Fig. 46. Insert the
+connector, which was removed in Step 8.1, into the Stepper motor of the Syringe Pump. 
+
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/cda5394f-6525-4848-a8e9-a648279c5c04)
+
+**Step 9: Install tube and Tube Holder**
+
+An extension tubing with a female luer lock to a male luer lock transports the liquid from
+the Syringe Pump to the platform. To secure the tube onto the frame of the Ender-3, the
+existing mounting holes of the extruder head on the X-axis carriage plate are utilized.
+The tube holder is designed for the microbore extension set from Joya Medical Supplies,
+Arundel. The 3D design cannot be used for other tube extension models. The Tube
+Holder exists in two parts. The bottom part is attached to the X-axis Carriage Plate, and
+the top part is magnetically attached to the bottom part.
+
+Step 9.1: Insert magnets into Tube holder 
+
+Before installing the Tube Holder onto the X-axis Carriage Plate, insert four magnets into
+the holes provided on the 3D-printed parts.
+First, place the two parts as shown in Figure 47 with the inside facing forward. Before
+inserting the magnets into the holes, ensure that the parts do not repel each other when
+they are put together. Therefore, take two disc magnets that attract each other and separate them. Place each of them next to the opposite hole of the other part so that the
+surface that was separated from one faces the front. Do the same with the other two
+magnets.
+Add super glue to one of the holes and insert the magnet without changing the orientation. Let the glue dry (NOTE 1). Repeat this process for the other three magnets
+
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/37414580-433c-4d33-90e1-fac865138e69)
+
+Step 9.2: Secure the syringe with the tube
+
+Connects the syringe to the female luer connector of the tube. But before connecting luer
+lock to the syringe (see Fig. 48a), insert a 32 mm Bulldog Clip onto the tube (see Fig.
+48b, NOTE 2). 
+
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/2254ce91-8c6a-4981-97b3-e5e3319cf831)
+
+NOTE 2 The Bulldog Clip can only be inserted into the tube from the female luer connector side, as the male luer connector has a larger dimension and will not fit through
+the clip.
+
+Step 9.3: Attach the Tube Holder to the X-axis Carriage Plate (**_Note: step 9.3 can be skipped if replicating the updated design, as the Tube Holder will be glued to a different mount_**)
+
+The Tube Holder utilizes the mounting holes on the X-axis Carriage Plate circled in orange in Fig. 49a. Insert the two grind-down M3 countersunk screw heads from Step 4.3
+into the bottom part of the Tube Holder and tighten it onto X-axis Carriage Plate as shown
+in Fig. 49b. 
+
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/51c98662-9b84-4fae-8440-a67e96e2aadd)
+
+Step 9.4: Attach Bulldog Clip to the frame
+
+Attached the tube to the frame with a 32 mm Bulldog Clip (see Fig. 50) to prevent the
+tube from interfering during the dispensing process. This reduces the uncontrolled movement during the needle's X- and Z-axis movement. 
+
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/3b3f84b4-19ee-4591-9821-6748fe2aed08)
+
+Step 9.5: Secure the tube and needle with the Tube Holder
+
+Before attaching the tube into the tube holder, insert the needle into the male luer connector of the tube and secure it by tightening the rotating collar. Figure 51a shows that
+the male luer connector only fits into the Tube Holder if the needle is firmly connected to
+the connector. Insert the male connector into the bottom and attach the Tube Holder's
+top part magnetically (see Fig. 51b).
+
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/ae803bdc-6b09-46ed-bea5-49ff7424167b)
+
+**Step 10: Adjusting the Z-axis limit switch** 
+The limit switches are sensors and are installed at the start of each of the X-, Y-, and Zaxes. The limit switches for the X- and Y- axes do not need to be adjusted. If a well plate
+is placed on the platform of the Ender-3, the starting point of the Z-axis changes and the
+limit switch must be adjusted. Without this adjustment, the dispensing head can drive
+into the well plate and be damaged.
+First, loosen the two M3 screws from the T-nuts on the Z-axis limit switch. The limit switch
+can now slide up and down the rail without any obstacles. There are two ways to adjust
+the height of the switch. First, measure the height of the well plate and move the switch
+up by this height and tighten the screws again. The second possibility is to use a well
+plate. Place the well plate to the position shown in Figure 53 and if the orange circled
+part on the limit switch touches the well plate edge, tighten the screws again. 
+
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/489f5cb4-1762-4a4c-82fd-26d0f74ecacb)
+
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/7f65bea8-b53b-42be-b18b-6cc36c201a28)
+
+After setting the Z-axis limit switch, the electronics box can finally be closed. As explained
+in Step 4.4, the cable of the Z-axis limit switch plugged into the main board must use the
+modified opening. Otherwise, there will be increased tension on the wires. To close the
+cover of the motherboard, screw the three M3 screws back in.
+
+NOTE 1 Remove well plate after Z-axis limit switch have been adjusted.
+
+**Step 11: Install Well Plate Frame**
+
+The final Step to complete the assembly of PADL (see Fig. 54) is to place the Well Plate
+Frame on the hotbed.
+The Well Plate Frame is divided into four parts that fit into each other like a jigsaw puzzle.
+A Well Plate and two tubes with a diameter of 27 mm can be inserted into the holes
+provided (see Fig. 54).
+
+![image](https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/145983034/27003c37-6e35-4493-8e2d-2e05ff4d1313)
+
+NOTE 1 The height of the reservoir tubes is considered in the G-code therefore there is
+no need to adjust the Z-axis limit switch.
+
+# Part 3: Assembling the updated design (tool-switching mechanism and circuit, waterproofing techniques)
