@@ -602,6 +602,7 @@ no need to adjust the Z-axis limit switch.
 
 # Part 3: Assembling the updated design (tool-switching mechanism and circuit, waterproofing techniques)
 Updated PADL Liquid Handler Assembly Instructions
+
 <img width="586" alt="Screenshot 2023-10-28 at 9 05 56 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/de647276-1fcc-486d-a765-0f564b2af537">
 
 A) Overview of the final design, including the tool-switching mechanism and circuit, syringe pump, clamp, and control panel and stand. B) The final design of the waterproofing measures, including the extension of the control panel and power box. Note that the waterproofing measures were implemented on Sukukumar’s PADL (2023) for testing purposes, and hence are not part of A). 
@@ -617,6 +618,7 @@ Visit the GitHub page and download all STL files and Laser cut files necessary t
 Step 2
 
 Assemble the 3D components, including the syringe pump and well plate frame. For detailed instructions, please refer to Part 2 of Sukukumar's work from 2023.
+
 <img width="525" alt="Screenshot 2023-10-28 at 9 06 29 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/65b61f39-5f0a-4b05-b925-9dc2a866a46c">
 
 <img width="420" alt="Screenshot 2023-10-28 at 9 06 51 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/8d969181-cf4c-4fee-b3fb-3d70eeaef0f0">
@@ -747,6 +749,7 @@ Solder the components together, assemble the parts, and waterproof the newly add
 
 <img width="370" alt="Screenshot 2023-10-28 at 9 12 23 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/b3be4acd-1e39-47e5-93e4-e7cb1da57a1b">
 
+
 <img width="580" alt="Screenshot 2023-10-28 at 9 13 32 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/f9d1756b-1027-4a53-9a4e-3671a2c46401">
 
 Following the soldering process, secure the solder board onto the top side of a 6mm acrylic plate measuring 33*36 mm using four M5 screws and a hot glue gun. Additionally, use double-sided tape at the bottom to stabilise it with the 3D prints, ensuring the wires do not come into contact with metal to prevent electrical hazards.
@@ -791,6 +794,7 @@ Heat control
 
 Step 9
 Integrate all components into a unified assembly. 
+
 <img width="532" alt="Screenshot 2023-10-28 at 9 28 39 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/e21e4b36-c92b-41b6-92ad-63ce7b9e6d6d">
 
 
