@@ -1,4 +1,4 @@
-# Part 1: Assembling Ender-3 3D Printer
+<img width="595" alt="Screenshot 2023-10-28 at 9 05 36 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/9886b2d7-0240-4df6-b952-1bb1211d53ec"># Part 1: Assembling Ender-3 3D Printer
 Please consult the included instructions from Creality with your printer.
 
 # Part 2: Assembling the syringe pump and well-plate frame
@@ -602,57 +602,40 @@ no need to adjust the Z-axis limit switch.
 
 # Part 3: Assembling the updated design (tool-switching mechanism and circuit, waterproofing techniques)
 Updated PADL Liquid Handler Assembly Instructions
-Overview of final PADL design
-
-
+<img width="586" alt="Screenshot 2023-10-28 at 9 05 56 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/de647276-1fcc-486d-a765-0f564b2af537">
 
 A) Overview of the final design, including the tool-switching mechanism and circuit, syringe pump, clamp, and control panel and stand. B) The final design of the waterproofing measures, including the extension of the control panel and power box. Note that the waterproofing measures were implemented on Sukukumar’s PADL (2023) for testing purposes, and hence are not part of A). 
 
 Step 0
+
 Ensure access to a 3D printer equipped with PLA and TPU filaments. Note that specific settings are necessary to produce 3D parts with a smooth finish, minimising the need for extensive filing. We utilised 3D prints conforming to the standard 1.75mm diameter printing specifications, employing the "eSUN orange PLA+ filament" brand, which was supplied in a 1kg spool.
+
 Step 1
+
 Visit the GitHub page and download all STL files and Laser cut files necessary to replicate this project https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project  
+
 Step 2
+
 Assemble the 3D components, including the syringe pump and well plate frame. For detailed instructions, please refer to Part 2 of Sukukumar's work from 2023.
+<img width="525" alt="Screenshot 2023-10-28 at 9 06 29 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/65b61f39-5f0a-4b05-b925-9dc2a866a46c">
 
-Side Views of the Syringe Pump: Front and Back Perspectives
-
-
-
-
-
-
-
-
-
-Overview of the original PADL design with Syringe Pump 
-
+<img width="420" alt="Screenshot 2023-10-28 at 9 06 51 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/8d969181-cf4c-4fee-b3fb-3d70eeaef0f0">
 
 Step 3
+
 Assemble the 3D components: tool holder and clamp system. Use a tapping set to thread the holes in the clamp. Next, use an allen key and two M3x10 screws to secure the clamp onto the x-carriage plate. 
 
-Overview of the design (clamp and tool holder)
-
-
-Magnetic Polarity of Tool Mount and Tool Holder
-
-
-Attachment of Two 3mm Acrylic Plates Using Double-Sided Tape
-
+<img width="574" alt="Screenshot 2023-10-28 at 9 07 34 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/10a8d112-6825-4a77-ad78-088cfbc2669d">
 
 Begin by adhering the magnets, aligning them according to the specified magnetic polarity, using super glue. Next, affix two 3mm acrylic plates as demonstrated above, utilising double-sided tape. Attach the tool holder with the small magnets to the mounts, as illustrated below. This can be done by applying Zap-A-Gap bonder to the inside surfaces of the tool holder, and placing the original syringe tool mount inside. Once the tool, such as the needle, is inserted, use orange tape to secure it, preventing both tool slippage and interference with the larger magnet mechanism.
 
-Design of the tool mount
+<img width="576" alt="Screenshot 2023-10-28 at 9 07 52 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/3cf14d88-85a3-47af-8e22-bb58a519508f">
 
-
-
-
-
-A) The inside of the tool. The original syringe mount from Sukukumar’s design (2023) has been embedded into the outer casing that contains the magnets. B) A profile view of the tool, representing its orientation during use. Orange electrical tape is affixed to both sides to secure the syringe firmly within the mount. C) The side of the tool that attaches and detaches from the frame mount. D) The side of the tool that attaches and detaches from the clamp which is connected to the x-carriage plate. A 3mm acrylic sheet is attached to C) and D) with double-sided tape to reduce the magnetic strength of the neodynium magnets.
 Step 4
+
 Please visit the dedicated Reddit page created for this purpose to find instructions on constructing the circuit for the additional stepper motor (integrating a fifth stepper motor with the Ender 3 motherboard 4.2.2).
 
-https://www.reddit.com/r/ender3v2/comments/qzxsok/i_added_a_5th_stepper_driver_to_the_stock/ 
+https://www.reddit.com/r/ender3v2/comments/qzxsok/i_added_a_5th_stepper_driver_to_the_stock/  
 
 The remaining part of step 4 consists of direct quotes from the Reddit page “How To Add Another Stepper Driver to the Stock Creality 4.2.2 Main Board”.
 
@@ -691,23 +674,28 @@ Dupont wires (breadboard wires) (example)
 Stepper JST to Dupont wires (example)
 Stepper Driver Breakout Board (example) 
 Wiring:
-
 On the Creality 4.2.2 board there are 4 pins right above the LCD port that are unused and exposed (they might be covered with hot glue). 
 
+<img width="557" alt="Screenshot 2023-10-28 at 9 08 40 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/9e4f9471-5a74-47cd-829a-7b50e84ccb3a">
+
 	If there are no headers on these 4 pins (just holes), you will need to solder wires or headers on the board. However, I think most boards come with these pins. 
+<img width="308" alt="Screenshot 2023-10-28 at 9 09 15 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/3dd7a708-c255-4ec5-8ea9-023c18f0839b">
 
 	Two of these pins are VCC and GND (3.3 V and Ground, respectively) and the middle two are SWDIO and SWCLK. You don’t have to know what they are, but what’s important is that they are directly connected to pins PA13 and PA14 on the mainboard IC! Therefore, we can reprogram the chip through Marlin firmware to command another stepper driver through these two pins. 
 	For this case, we will be using our additional TMC2208 driver in STANDALONE mode: therefore NOT in UART mode. This means that Marlin can’t use UART to talk to the driver to change max current or for fancy features like linear advance. However, this is okay because all four integrated TMC2208s in this Creality 4.2.2 board are already in STANDALONE mode. This also simplifies the wiring, because we will only need two pins to communicate with the driver.
 	(If you want to use UART, u/LookAtDaShinyShiny has a great tutorial for unlocking the functionality on the 4.2.2 board too! I wish I’d seen this before I did my mod, it would have saved me a ton of time!)
 Wiring Diagram:
-	The TMC2208 stepper driver requires only two data pins (STEP and DIR) for use in STANDALONE mode. Along with those pins, it requires an I/O voltage (VCC) and ground (GND). You can use dupont wires to directly connect these.  
+	The TMC2208 stepper driver requires only two data pins (STEP and DIR) for use in STANDALONE mode. Along with those pins, it requires an I/O voltage (VCC) and ground (GND). You can use dupont wires to directly connect these.
+ 
+ <img width="580" alt="Screenshot 2023-10-28 at 9 09 30 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/94b0c408-65b4-4ea2-b237-e01f80b34706">
+
 	In addition, the driver requires the motor voltage (24V). This can be done with dupont wires as well, but I’d recommend using some thicker wire (like 22 AWG) to be safe. 
 	The capacitor is to smooth out fluctuations in the 24V line and it should be installed as close to the stepper driver as possible. 
 	NOTE: In STANDALONE mode (without UART), the MS1 and MS2 pins need to be set high (VCC) so that the steps are assumed to be 16 microsteps per step. Other configurations are located on the TMC2208 datasheet (3.4 Configuration Pins). In addition, I set the ENABLE pin to be always set to GND. This means that this driver is always enabled (cannot be disabled). 
 	
 	Personally, I decided to solder the driver to a piece of prototyping board and solder down the wires too. You can also use a tiny breadboard if you don’t want to solder. Triple check your connections!
 
-
+<img width="603" alt="Screenshot 2023-10-28 at 9 09 56 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/2843a34e-4fb4-4126-9e1c-a8d8f0005812">
 
 I used a large breadboard first to test functionality
 Now, it is important to make sure that your stepper motor wires are correct. The four pins below must be connected to the correct 4 pins on the stepper motor. From the picture below, M1A and M1B should be connected to RED and GRN (Wires 1 and 2) and M2A and M2B should be connected to YEL and BLU (Wires 3 and 4). 
@@ -716,6 +704,8 @@ NOTE: If you get these pins wrong, your stepper motor may make some truly terrib
 1. Use a multimeter to probe the pins on the stepper motor and see which two have continuity (use the continuity mode on your multimeter). Two continuous pins should connect to M1A and M1B, and the other two pins should be on M2A and M2B. 
 2. If you don’t have a multimeter, you can simply try different combinations. Try to switch two wires at a time (start with inner two and outer two) and try to run the motor briefly.
 If you’re using the dupont to JST stepper wires, follow each wire to make sure that they are going to the correct pins. If they are not, it is very easy to swap pins on dupont connectors. Also, if the stepper motor is moving the wrong way, you can either switch the M2 and M1 pins OR change the direction in software (Marlin). Software is much easier.
+
+<img width="554" alt="Screenshot 2023-10-28 at 9 10 14 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/86c87217-43ce-45b3-b791-8b13da6c29d0">
 
 *** This wiring may NOT work for you! Read the NOTE above if it doesn’t work! ***
 
@@ -750,109 +740,58 @@ Don’t forget to change the reference voltage on the new stepper motor! Because
 
 Where do you put the extra stepper driver?? I actually found just enough space to the left of the main board and hot glued the new stepper driver there. However, if you use one of the small breadboards you may need to find a place outside the mainboard compartment to leave the stepper. Just make sure that the heatsink has some airflow to cool it down and mount it somewhere safe so it doesn’t short!
 
-
+<img width="438" alt="Screenshot 2023-10-28 at 9 10 41 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/7e9cadb2-56a6-4aef-93fe-b2bbec580bbb">
 
 Step 5
 Solder the components together, assemble the parts, and waterproof the newly added fifth stepper motor.
 
-Wiring on Solderboard and Breadboard respectively
+<img width="370" alt="Screenshot 2023-10-28 at 9 12 23 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/b3be4acd-1e39-47e5-93e4-e7cb1da57a1b">
 
-
-Design of circuit and waterproof circuit casing
-
-
-
-
-A) Soldered stepper motor circuit with heatshrink tubing applied to the wires. B) Circuit casing attached to the Ender-3 frame with screws. It features two openings: the first to allow for the insertion of the circuit, and the second for accommodating the wires. C) The circuit is placed within the casing, with the laser-cut wall attached to enclose it. Note that electrical tape was also applied around the acrylic plate and the wire hole opening to waterproof it (not pictured).
+<img width="580" alt="Screenshot 2023-10-28 at 9 13 32 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/f9d1756b-1027-4a53-9a4e-3671a2c46401">
 
 Following the soldering process, secure the solder board onto the top side of a 6mm acrylic plate measuring 33*36 mm using four M5 screws and a hot glue gun. Additionally, use double-sided tape at the bottom to stabilise it with the 3D prints, ensuring the wires do not come into contact with metal to prevent electrical hazards.
+
 Step 6
+
 Assemble the 3D components, cut the V-rails, drill holes, and integrate a belt system along with the mounts and stepper motor.
 
-Design and attachment of the frame mounts and additional stepper motor
-
-
-
-A) Front view of the assembled rotation system. The frame mounts are on the left v-rail, and the stepper motor is on the right v-rail. The belt is pictured between the two frame mounts. B) A side view of the rotation system is shown. The connection of the V-rails to the Ender-3 frame (black) and the alignment of the belt are more prominently visible
+<img width="580" alt="Screenshot 2023-10-28 at 9 21 34 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/d18ab544-e138-47bf-8608-ea20feab4237">
 
 We resized the V-rails and drilled holes using a drill press in the metal workshop for the longer V-rails. This enabled us to securely attach the two tool mounts using long screws. Grub screws were used to fasten the mounts together with the GT2 pulley, while nyloc nuts prevented loosening during rotation. Washers were added to ensure the screws remained tight and stable when the stepper motor was in motion.
 
 For the shorter screws, we threaded some holes using four M5 screws and four M2.5 screws to firmly secure the stepper motor mounts. Subsequently, we employed a belt tensioner, as demonstrated below, along with a screw to further tighten and maintain the belt tension consistently. To anchor the V-rails to the printer frame, eight additional holes were drilled on the side. These were secured using rivet screws and eight M5 screws for stability.
 
-The two belt tensioner options examined
+<img width="406" alt="Screenshot 2023-10-28 at 9 24 13 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/76b85752-6158-4ab4-81d8-1609a3025aa5">
 
+A: https://cults3d.com/en/3d-model/tool/gt2-belt-tensioner-create_tec  
 
+B: https://www.thingiverse.com/thing:1071695/comments
 
-
-https://cults3d.com/en/3d-model/tool/gt2-belt-tensioner-create_tec  
-
-https://www.thingiverse.com/thing:1071695/comments
 Step 7
+
 Other waterproofing approaches
 
-Ender 3 4.2.2 Motherboard case and Aluminium Sheets protection 
+<img width="595" alt="Screenshot 2023-10-28 at 9 25 38 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/76f48570-0630-4cce-a4bd-26e286d1b3bb">
 
+<img width="572" alt="Screenshot 2023-10-28 at 9 26 00 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/9ad8153e-d1a2-4f50-a330-900819a1512e">
 
+<img width="566" alt="Screenshot 2023-10-28 at 9 26 29 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/9e23a9bd-4eb1-4dc5-90d3-dfd9b01ded01">
 
+<img width="584" alt="Screenshot 2023-10-28 at 9 26 45 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/b065fda4-542f-451b-aed1-6fd358f00036">
 
-A) Overview of Ender 3 4.2.2 Motherboard Case. B) Side View of Motherboard Case with Aluminum Sheets Protection. C) Top View of Motherboard Case Cover with Aluminum Sheets Protection.
-
-PCB lacquer application
-
-
-
-A) Firstly, every wire was removed, and all connection ports, capacitors and heat sinks were covered with electrical tape to ensure they were not damaged during application. B) The PCB lacquer aerosol was sprayed in a fumehood, with a cardboard box protecting the environment from any vapours. Butyl rubber gloves were worn as suggested by the manufacturer to ensure user protection (Chemtools, n.d.).
-
-Application of the conductive grease
-
-A) An example of the application of the conductive grease to use the ports of the motherboard. B) Final result after applying the conductive grease and electrical tape. 
-
-Laser cut components used for waterproofing the v-rail
-
-
-
-A) 4mmx4mm squares of 3mm thick acrylic were cut out with M5 holes. B) M5x10mm screws were used to secure the acrylic covers to the exposed ends of the v-rails, including the bottom right Ender-3 v-rail where the control panel used to be located (top) and mount frame (bottom).
-
-Application of electrical tape to seal gaps in the motherboard case
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-A) Sealing the gap between the frame and motherboard case lid. B) Sealing around the gap left for the stepper motor wire (Sukukumar, 2023). C) Seakung the gaps at the bottom between the Ender-3 frames and the bottom of the motherboard case. D) Sealing around the hole left in the motherboard case for the power and stepper motor cables. 
+<img width="571" alt="Screenshot 2023-10-28 at 9 27 04 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/7f50a9fc-9093-489b-8617-4ab1808df2ba">
 
 Step 8
+
 Heat control 
-Application of copper heat sinks on stepper motors
 
+<img width="540" alt="Screenshot 2023-10-28 at 9 28 22 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/d4cec7f3-8a2c-495c-890d-5b52ac7d554d">
  
-
-
-A) The temperature of the stepper motor in the syringe pump system measured 113.4 degrees Celsius before the implementation of copper heat sinks. B) Thermal paste with conductive properties and double-sided tape were applied to affix the heat sinks onto the stepper motor. C) Following the installation of two copper heat sinks, the temperature of the stepper motor in the syringe pump system was reduced significantly to 52.7 degrees Celsius.
+<img width="620" alt="Screenshot 2023-10-28 at 9 27 23 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/7b529f75-b3fa-460b-ad13-efb31638c081">
 
 Step 9
 Integrate all components into a unified assembly. 
+<img width="532" alt="Screenshot 2023-10-28 at 9 28 39 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/e21e4b36-c92b-41b6-92ad-63ce7b9e6d6d">
 
 
 
