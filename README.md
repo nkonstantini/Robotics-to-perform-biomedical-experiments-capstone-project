@@ -1,5 +1,5 @@
-# Robotics-to-perform-biomedical-experiments-capstone-project
-This repository contains all the design files, firmware modifications, and code used for this capstone project in order for you to replicate our work
+# Robotics-to-perform-biomedical-experiments-capstone-project (PADL v2)
+This repository contains all the design files, firmware modifications, and code used for this capstone project in order for you to replicate our work and design your own PADL v2 system.
 
 ## Folders:
 
@@ -12,7 +12,8 @@ STL files
 - Some parts have been sourced from Sukukumar (2023) and [stratop80 (2015)](https://www.thingiverse.com/thing:1071695/files)
 
 CAD files
-- This contains all the CAD files we used, in case you wish to modify the design. Note that we do not have all the STL files available as CAD files.
+- This contains all the CAD files we used (.f3d), in case you wish to modify the design. Note that we do not have all the STL files available as CAD files.
+
 
 Laser cut files
 - This contains the file for all the laser-cut parts in 3 different file types (.pdf, .dxf and .cdr)
