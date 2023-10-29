@@ -1,4 +1,8 @@
-<img width="595" alt="Screenshot 2023-10-28 at 9 05 36 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/9886b2d7-0240-4df6-b952-1bb1211d53ec"># Part 1: Assembling Ender-3 3D Printer
+
+# Build instructions for the PADL v2 system
+<img width="595" alt="Screenshot 2023-10-28 at 9 05 36 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/9886b2d7-0240-4df6-b952-1bb1211d53ec">
+
+# Part 1: Assembling Ender-3 3D Printer
 Please consult the included instructions from Creality with your printer.
 
 # Part 2: Assembling the syringe pump and well-plate frame
@@ -607,15 +611,15 @@ Updated PADL Liquid Handler Assembly Instructions
 
 A) Overview of the final design, including the tool-switching mechanism and circuit, syringe pump, clamp, and control panel and stand. B) The final design of the waterproofing measures, including the extension of the control panel and power box. Note that the waterproofing measures were implemented on Sukukumar’s PADL (2023) for testing purposes, and hence are not part of A). 
 
-Step 0
+**Step 0**
 
 Ensure access to a 3D printer equipped with PLA and TPU filaments. Note that specific settings are necessary to produce 3D parts with a smooth finish, minimising the need for extensive filing. We utilised 3D prints conforming to the standard 1.75mm diameter printing specifications, employing the "eSUN orange PLA+ filament" brand, which was supplied in a 1kg spool.
 
-Step 1
+**Step 1**
 
 Visit the GitHub page and download all STL files and Laser cut files necessary to replicate this project https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project  
 
-Step 2
+**Step 2**
 
 Assemble the 3D components, including the syringe pump and well plate frame. For detailed instructions, please refer to Part 2 of Sukukumar's work from 2023.
 
@@ -623,9 +627,9 @@ Assemble the 3D components, including the syringe pump and well plate frame. For
 
 <img width="420" alt="Screenshot 2023-10-28 at 9 06 51 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/8d969181-cf4c-4fee-b3fb-3d70eeaef0f0">
 
-Step 3
+**Step 3**
 
-Assemble the 3D components: tool holder and clamp system. Use a tapping set to thread the holes in the clamp. Next, use an allen key and two M3x10 screws to secure the clamp onto the x-carriage plate. 
+Assemble the 3D components: tool holder and clamp system. Use a tapping set to thread the holes in the clamp. Next, use an Allen key and two M3x10 screws to secure the clamp onto the x-carriage plate. 
 
 <img width="574" alt="Screenshot 2023-10-28 at 9 07 34 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/10a8d112-6825-4a77-ad78-088cfbc2669d">
 
@@ -633,7 +637,7 @@ Begin by adhering the magnets, aligning them according to the specified magnetic
 
 <img width="576" alt="Screenshot 2023-10-28 at 9 07 52 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/3cf14d88-85a3-47af-8e22-bb58a519508f">
 
-Step 4
+**Step 4**
 
 Please visit the dedicated Reddit page created for this purpose to find instructions on constructing the circuit for the additional stepper motor (integrating a fifth stepper motor with the Ender 3 motherboard 4.2.2).
 
@@ -641,120 +645,145 @@ https://www.reddit.com/r/ender3v2/comments/qzxsok/i_added_a_5th_stepper_driver_t
 
 The remaining part of step 4 consists of direct quotes from the Reddit page “How To Add Another Stepper Driver to the Stock Creality 4.2.2 Main Board”.
 
-How To Add Another Stepper Driver to the Stock Creality 4.2.2 Main Board
-Without soldering directly on the mainboard!
+_How To Add Another Stepper Driver to the Stock Creality 4.2.2 Main Board_
+_Without soldering directly on the mainboard!
 
-Last Revised: 3/17/2023 - willsside
+_Last Revised: 3/17/2023 - willsside_
 
-Always be careful when working with electronics and high voltages. All actions described in this tutorial are performed at your own risk. The author is not responsible for any damages. 
+_Always be careful when working with electronics and high voltages. All actions described in this tutorial are performed at your own risk. The author is not responsible for any damages._ 
 
-This tutorial will describe how to add an additional stepper driver to the stock Creality 4.2.2 board. The stock board that is shipped with most Ender 3/Pro/V2s have four integrated stepper drivers onboard (typically TMC2208). These are fine for a standard printer, however the maximum of four stepper drivers are a limitation when new features are desired, such as a second extruder or a second z axis stepper motor. 
+_This tutorial will describe how to add an additional stepper driver to the stock Creality 4.2.2 board. The stock board that is shipped with most Ender 3/Pro/V2s have four integrated stepper drivers onboard (typically TMC2208). These are fine for a standard printer, however the maximum of four stepper drivers are a limitation when new features are desired, such as a second extruder or a second z axis stepper motor._
 
-One way to do this is to solder new wires to unused pins on the main integrated circuit (IC) onboard the 4.2.2 board (STM32F103RET6). However, soldering on the tiny pins, or on other tiny surface mounted components is very difficult and could cause damage to your mainboard. Thankfully, there are a few extra headers on the board that are unused and directly connect to pins on the main IC! This means that we don’t need to get a soldering iron anywhere near the main board; adding a stepper driver may be as simple as plug-and-play! (assuming changes in Marlin)
-For this tutorial, I’ll be adding a second z-axis stepper. However, the tutorial is essentially the same for driving any other type of stepper (2nd extruder, 2nd x-axis, etc).
+*One way to do this is to solder new wires to unused pins on the main integrated circuit (IC) onboard the 4.2.2 board (STM32F103RET6). However, soldering on the tiny pins, or on other tiny surface mounted components is very difficult and could cause damage to your mainboard. Thankfully, there are a few extra headers on the board that are unused and directly connect to pins on the main IC! This means that we don’t need to get a soldering iron anywhere near the main board; adding a stepper driver may be as simple as plug-and-play! (assuming changes in Marlin)
+For this tutorial, I’ll be adding a second z-axis stepper. However, the tutorial is essentially the same for driving any other type of stepper (2nd extruder, 2nd x-axis, etc).*
 
-Note, this mod has been successful in adding another stepper driver for the following main boards: 
+*Note, this mod has been successful in adding another stepper driver for the following main boards:* 
 
-Creality 4.2.2
-Creality 4.2.7
-SKR Mini E3 V2.0 (link to more info)
+*Creality 4.2.2*
 
-Theoretically, this mod can be applied to any main board with unused and easily accessible pins!
+*Creality 4.2.7*
 
-If you enjoyed this tutorial and are feeling extra grateful, I’d appreciate it if you could buy me a coffee / donate a bit. Thank you!
-Materials:
-Creality 4.2.2 board (should also work with 4.2.7 board)
-Spare TMC2208/2209 Driver (example)
-100µF 35v Capacitor (example)
-Dual Z Stepper kit (example kit)
-42-34 Stepper Motor (42mm x 42mm x 34mm)
-Threaded Rod (365mm)
-Z coupler
+_SKR Mini E3 V2.0 (link to more info)_
 
-If you really want a plug and play experience, you can get these:
-Dupont wires (breadboard wires) (example)
-Stepper JST to Dupont wires (example)
-Stepper Driver Breakout Board (example) 
-Wiring:
-On the Creality 4.2.2 board there are 4 pins right above the LCD port that are unused and exposed (they might be covered with hot glue). 
+*Theoretically, this mod can be applied to any main board with unused and easily accessible pins!*
+
+**_Materials:_**
+
+_Creality 4.2.2 board (should also work with 4.2.7 board)_
+
+_Spare TMC2208/2209 Driver_ 
+
+_100µF 35v Capacitor_ 
+
+_Dual Z Stepper kit_ (**Note: not required for the PADL v2 design**)
+
+_42-34 Stepper Motor (42mm x 42mm x 34mm)_
+
+_Threaded Rod (365mm)_ (**Note: not required for the PADL v2 design**)
+
+_Z coupler_ (**Note: not required for the PADL v2 design**)
+
+_If you really want a plug and play experience, you can get these:_
+
+_Dupont wires (breadboard wires)_
+
+_Stepper JST to Dupont wires_
+
+_Stepper Driver Breakout Board_
+
+**_Wiring:_**
+
+_On the Creality 4.2.2 board there are 4 pins right above the LCD port that are unused and exposed (they might be covered with hot glue)._ 
 
 <img width="557" alt="Screenshot 2023-10-28 at 9 08 40 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/9e4f9471-5a74-47cd-829a-7b50e84ccb3a">
 
-	If there are no headers on these 4 pins (just holes), you will need to solder wires or headers on the board. However, I think most boards come with these pins. 
+_If there are no headers on these 4 pins (just holes), you will need to solder wires or headers on the board. However, I think most boards come with these pins._ 
+
 <img width="308" alt="Screenshot 2023-10-28 at 9 09 15 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/3dd7a708-c255-4ec5-8ea9-023c18f0839b">
 
-	Two of these pins are VCC and GND (3.3 V and Ground, respectively) and the middle two are SWDIO and SWCLK. You don’t have to know what they are, but what’s important is that they are directly connected to pins PA13 and PA14 on the mainboard IC! Therefore, we can reprogram the chip through Marlin firmware to command another stepper driver through these two pins. 
-	For this case, we will be using our additional TMC2208 driver in STANDALONE mode: therefore NOT in UART mode. This means that Marlin can’t use UART to talk to the driver to change max current or for fancy features like linear advance. However, this is okay because all four integrated TMC2208s in this Creality 4.2.2 board are already in STANDALONE mode. This also simplifies the wiring, because we will only need two pins to communicate with the driver.
-	(If you want to use UART, u/LookAtDaShinyShiny has a great tutorial for unlocking the functionality on the 4.2.2 board too! I wish I’d seen this before I did my mod, it would have saved me a ton of time!)
-Wiring Diagram:
-	The TMC2208 stepper driver requires only two data pins (STEP and DIR) for use in STANDALONE mode. Along with those pins, it requires an I/O voltage (VCC) and ground (GND). You can use dupont wires to directly connect these.
+_Two of these pins are VCC and GND (3.3 V and Ground, respectively) and the middle two are SWDIO and SWCLK. You don’t have to know what they are, but what’s important is that they are directly connected to pins PA13 and PA14 on the mainboard IC! Therefore, we can reprogram the chip through Marlin firmware to command another stepper driver through these two pins._
+
+_For this case, we will be using our additional TMC2208 driver in STANDALONE mode: therefore NOT in UART mode. This means that Marlin can’t use UART to talk to the driver to change max current or for fancy features like linear advance. However, this is okay because all four integrated TMC2208s in this Creality 4.2.2 board are already in STANDALONE mode. This also simplifies the wiring, because we will only need two pins to communicate with the driver._
+	
+ _(If you want to use UART, u/LookAtDaShinyShiny has a great tutorial for unlocking the functionality on the 4.2.2 board too! I wish I’d seen this before I did my mod, it would have saved me a ton of time!)_
+ 
+**_Wiring Diagram:**
+
+_The TMC2208 stepper driver requires only two data pins (STEP and DIR) for use in STANDALONE mode. Along with those pins, it requires an I/O voltage (VCC) and ground (GND). You can use dupont wires to directly connect these._
  
  <img width="580" alt="Screenshot 2023-10-28 at 9 09 30 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/94b0c408-65b4-4ea2-b237-e01f80b34706">
 
-	In addition, the driver requires the motor voltage (24V). This can be done with dupont wires as well, but I’d recommend using some thicker wire (like 22 AWG) to be safe. 
-	The capacitor is to smooth out fluctuations in the 24V line and it should be installed as close to the stepper driver as possible. 
-	NOTE: In STANDALONE mode (without UART), the MS1 and MS2 pins need to be set high (VCC) so that the steps are assumed to be 16 microsteps per step. Other configurations are located on the TMC2208 datasheet (3.4 Configuration Pins). In addition, I set the ENABLE pin to be always set to GND. This means that this driver is always enabled (cannot be disabled). 
+_In addition, the driver requires the motor voltage (24V). This can be done with dupont wires as well, but I’d recommend using some thicker wire (like 22 AWG) to be safe. The capacitor is to smooth out fluctuations in the 24V line and it should be installed as close to the stepper driver as possible. NOTE: In STANDALONE mode (without UART), the MS1 and MS2 pins need to be set high (VCC) so that the steps are assumed to be 16 microsteps per step. Other configurations are located on the TMC2208 datasheet (3.4 Configuration Pins). In addition, I set the ENABLE pin to be always set to GND. This means that this driver is always enabled (cannot be disabled)._ 
 	
-	Personally, I decided to solder the driver to a piece of prototyping board and solder down the wires too. You can also use a tiny breadboard if you don’t want to solder. Triple check your connections!
+_Personally, I decided to solder the driver to a piece of prototyping board and solder down the wires too. You can also use a tiny breadboard if you don’t want to solder. Triple check your connections!_
 
 <img width="603" alt="Screenshot 2023-10-28 at 9 09 56 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/2843a34e-4fb4-4126-9e1c-a8d8f0005812">
 
-I used a large breadboard first to test functionality
-Now, it is important to make sure that your stepper motor wires are correct. The four pins below must be connected to the correct 4 pins on the stepper motor. From the picture below, M1A and M1B should be connected to RED and GRN (Wires 1 and 2) and M2A and M2B should be connected to YEL and BLU (Wires 3 and 4). 
+_I used a large breadboard first to test functionality_
 
-NOTE: If you get these pins wrong, your stepper motor may make some truly terrible sounds and vibrate. As far as I know, the stepper motors are NOT damaged from these vibrations. It seems that different manufacturers may have different coil configurations. No worries though, you have two options: 
-1. Use a multimeter to probe the pins on the stepper motor and see which two have continuity (use the continuity mode on your multimeter). Two continuous pins should connect to M1A and M1B, and the other two pins should be on M2A and M2B. 
-2. If you don’t have a multimeter, you can simply try different combinations. Try to switch two wires at a time (start with inner two and outer two) and try to run the motor briefly.
-If you’re using the dupont to JST stepper wires, follow each wire to make sure that they are going to the correct pins. If they are not, it is very easy to swap pins on dupont connectors. Also, if the stepper motor is moving the wrong way, you can either switch the M2 and M1 pins OR change the direction in software (Marlin). Software is much easier.
+_Now, it is important to make sure that your stepper motor wires are correct. The four pins below must be connected to the correct 4 pins on the stepper motor. From the picture below, M1A and M1B should be connected to RED and GRN (Wires 1 and 2) and M2A and M2B should be connected to YEL and BLU (Wires 3 and 4)._ 
+
+_NOTE: If you get these pins wrong, your stepper motor may make some truly terrible sounds and vibrate. As far as I know, the stepper motors are NOT damaged from these vibrations. It seems that different manufacturers may have different coil configurations. No worries though, you have two options_
+
+_1. Use a multimeter to probe the pins on the stepper motor and see which two have continuity (use the continuity mode on your multimeter). Two continuous pins should connect to M1A and M1B, and the other two pins should be on M2A and M2B._ 
+
+_2. If you don’t have a multimeter, you can simply try different combinations. Try to switch two wires at a time (start with inner two and outer two) and try to run the motor briefly._
+
+_If you’re using the dupont to JST stepper wires, follow each wire to make sure that they are going to the correct pins. If they are not, it is very easy to swap pins on dupont connectors. Also, if the stepper motor is moving the wrong way, you can either switch the M2 and M1 pins OR change the direction in software (Marlin). Software is much easier._
 
 <img width="554" alt="Screenshot 2023-10-28 at 9 10 14 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/86c87217-43ce-45b3-b791-8b13da6c29d0">
 
-*** This wiring may NOT work for you! Read the NOTE above if it doesn’t work! ***
+_*** This wiring may NOT work for you! Read the NOTE above if it doesn’t work! ***_
 
-	Last but not least, make sure that no pins can short! For my soldered solution, I put electrical tape all along the bottom of the perf board. This prevents a short if the board is touching the printer’s metal housing. If you have a breadboard, you will probably be fine, but just look out for potential shorts! A multimeter with connectivity checks helps a ton. 
-After you’ve triple checked your connections, you’re done with wiring! Congrats! Now time for firmware....
-Firmware Changes in Marlin:
+_Last but not least, make sure that no pins can short! For my soldered solution, I put electrical tape all along the bottom of the perf board. This prevents a short if the board is touching the printer’s metal housing. If you have a breadboard, you will probably be fine, but just look out for potential shorts! A multimeter with connectivity checks helps a ton._
+
+_After you’ve triple checked your connections, you’re done with wiring! Congrats! Now time for firmware...._
+
+**Firmware Changes in Marlin:**
+
 Refer to the ‘Marlin’ folder for instructions on how to modify the firmware for the PADL device.
-Testing the New Stepper Driver / Motor
-Now that you’ve compiled your new firmware and placed the .bin file on the printer’s SD card, it’s time to test!!!
-IMPORTANT: 
-	Triple check your connections and make sure there are no shorts. We don’t want to release the magic smoke on your mainboard or your extra stepper driver; there’s no way to put it back. 
-	Also, make sure to first unscrew the original z-stepper motor’s coupling to the threaded rod. This will make sure that the steppers don’t fight each other if the new stepper motor turns the wrong direction. 
 
-When you are confident that the connections are correct, reinsert your SD card with the new firmware and turn on the printer. You should hear the new stepper motor go “THUNK” as it is enabled automatically (nothing wrong with the sound). Once you’ve confirmed that nothing has broken, you can start to test!
-Now, go into your printer’s menu and command the printer to move up or down 5 mm. If the second stepper motor starts moving, you did it!!! 
-Before you reinstall the original stepper motor, make sure that your stepper moves exactly how much you command it to. Get a ruler and check that the x-gantry moved up 5 mm. If it is moving double the commanded amount (10 mm), make sure that your microsteps are set correctly (refer to MS1 and MS2 in the Wiring section).
-Finally, reinstall the original z-stepper motor coupler and command the z-axis to move up or down 5 mm. If both are moving fine (and at the same speed), congrats!!! You officially have added a new stepper driver to the stock Creality 4.2.2 board!!!
-Error Modes: 
-Nothing fried, but the stepper motor doesn’t move when I command it. 
-Check your wiring (make sure the STEP and DIR pins aren’t flipped: if they are, you can just swap the pins in the pins_CREALITY_V4.h file)
-Check your firmware
-My stepper motor is moving twice as fast / slow as the original stepper motor
-Your microsteps are probably set incorrectly. On the Creality 4.2.2 board, the drivers are set to 16 microsteps per step. You will have to make sure that the MS1 and MS2 pins are correctly configured (look at the wiring diagram).
-My stepper motor is moving in the opposite direction that it should be
-In Marlin you can change the direction of the stepper motor in the firmware by uncommenting:  #define INVERT_Z2_VS_Z_DIR In configuration_adv.h. 
-In Klipper, you can add or remove the “!” before your dir_pin
-OR:
 
-You can swap the M1(a/b) and M2(a/b) pins on the dupont wires connected to the stepper driver
-Finishing Touches
-Don’t forget to change the reference voltage on the new stepper motor! Because we are in STANDALONE mode, the stepper current cannot be changed in firmware. You will need to change the reference voltage via the screw on the driver itself. Teaching Tech has a great  video describing how to do this (I’d recommend doing it to your integrated drivers as well). 
+**_Testing the New Stepper Driver / Motor_**
+_Now that you’ve compiled your new firmware and placed the .bin file on the printer’s SD card, it’s time to test!!!_
 
-Where do you put the extra stepper driver?? I actually found just enough space to the left of the main board and hot glued the new stepper driver there. However, if you use one of the small breadboards you may need to find a place outside the mainboard compartment to leave the stepper. Just make sure that the heatsink has some airflow to cool it down and mount it somewhere safe so it doesn’t short!
+_IMPORTANT: Triple check your connections and make sure there are no shorts. We don’t want to release the magic smoke on your mainboard or your extra stepper driver; there’s no way to put it back. Also, make sure to first unscrew the original z-stepper motor’s coupling to the threaded rod. This will make sure that the steppers don’t fight each other if the new stepper motor turns the wrong direction._
+
+_When you are confident that the connections are correct, reinsert your SD card with the new firmware and turn on the printer. You should hear the new stepper motor go “THUNK” as it is enabled automatically (nothing wrong with the sound). Once you’ve confirmed that nothing has broken, you can start to test! Now, go into your printer’s menu and command the printer to move up or down 5 mm. If the second stepper motor starts moving, you did it!!!_
+
+_Before you reinstall the original stepper motor, make sure that your stepper moves exactly how much you command it to. Get a ruler and check that the x-gantry moved up 5 mm. If it is moving double the commanded amount (10 mm), make sure that your microsteps are set correctly (refer to MS1 and MS2 in the Wiring section)._
+
+_Finally, reinstall the original z-stepper motor coupler and command the z-axis to move up or down 5 mm. If both are moving fine (and at the same speed), congrats!!! You officially have added a new stepper driver to the stock Creality 4.2.2 board!!!_
+
+**_Error Modes:_**
+_Nothing fried, but the stepper motor doesn’t move when I command it.: 
+_Check your wiring (make sure the STEP and DIR pins aren’t flipped: if they are, you can just swap the pins in the pins_CREALITY_V4.h file)_
+
+_Check your firmware:_
+
+_My stepper motor is moving twice as fast / slow as the original stepper motor: Your microsteps are probably set incorrectly. On the Creality 4.2.2 board, the drivers are set to 16 microsteps per step. You will have to make sure that the MS1 and MS2 pins are correctly configured (look at the wiring diagram)._
+
+_My stepper motor is moving in the opposite direction that it should be: In Marlin you can change the direction of the stepper motor in the firmware by uncommenting:  #define INVERT_Z2_VS_Z_DIR In configuration_adv.h. OR: You can swap the M1(a/b) and M2(a/b) pins on the dupont wires connected to the stepper driver_
+
+**_Finishing Touches_**
+
+_Don’t forget to change the reference voltage on the new stepper motor! Because we are in STANDALONE mode, the stepper current cannot be changed in firmware. You will need to change the reference voltage via the screw on the driver itself. Teaching Tech has a great  video describing how to do this (I’d recommend doing it to your integrated drivers as well)._ 
+
+_Where do you put the extra stepper driver?? I actually found just enough space to the left of the main board and hot glued the new stepper driver there. However, if you use one of the small breadboards you may need to find a place outside the mainboard compartment to leave the stepper. Just make sure that the heatsink has some airflow to cool it down and mount it somewhere safe so it doesn’t short!_
 
 <img width="438" alt="Screenshot 2023-10-28 at 9 10 41 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/7e9cadb2-56a6-4aef-93fe-b2bbec580bbb">
+_)
 
-Step 5
+**Step 5**
 Solder the components together, assemble the parts, and waterproof the newly added fifth stepper motor.
 
 <img width="370" alt="Screenshot 2023-10-28 at 9 12 23 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/b3be4acd-1e39-47e5-93e4-e7cb1da57a1b">
-
 
 <img width="580" alt="Screenshot 2023-10-28 at 9 13 32 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/f9d1756b-1027-4a53-9a4e-3671a2c46401">
 
 Following the soldering process, secure the solder board onto the top side of a 6mm acrylic plate measuring 33*36 mm using four M5 screws and a hot glue gun. Additionally, use double-sided tape at the bottom to stabilise it with the 3D prints, ensuring the wires do not come into contact with metal to prevent electrical hazards.
 
-Step 6
+**Step 6**
 
 Assemble the 3D components, cut the V-rails, drill holes, and integrate a belt system along with the mounts and stepper motor.
 
@@ -770,7 +799,7 @@ A: https://cults3d.com/en/3d-model/tool/gt2-belt-tensioner-create_tec
 
 B: https://www.thingiverse.com/thing:1071695/comments
 
-Step 7
+**Step 7**
 
 Other waterproofing approaches
 
@@ -784,7 +813,7 @@ Other waterproofing approaches
 
 <img width="571" alt="Screenshot 2023-10-28 at 9 27 04 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/7f50a9fc-9093-489b-8617-4ab1808df2ba">
 
-Step 8
+**Step 8**
 
 Heat control 
 
@@ -792,7 +821,8 @@ Heat control
  
 <img width="620" alt="Screenshot 2023-10-28 at 9 27 23 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/7b529f75-b3fa-460b-ad13-efb31638c081">
 
-Step 9
+**Step 9**
+
 Integrate all components into a unified assembly. 
 
 <img width="532" alt="Screenshot 2023-10-28 at 9 28 39 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/e21e4b36-c92b-41b6-92ad-63ce7b9e6d6d">
