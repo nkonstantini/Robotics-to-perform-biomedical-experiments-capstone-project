@@ -772,12 +772,13 @@ _Don’t forget to change the reference voltage on the new stepper motor! Becaus
 _Where do you put the extra stepper driver?? I actually found just enough space to the left of the main board and hot glued the new stepper driver there. However, if you use one of the small breadboards you may need to find a place outside the mainboard compartment to leave the stepper. Just make sure that the heatsink has some airflow to cool it down and mount it somewhere safe so it doesn’t short!_
 
 <img width="438" alt="Screenshot 2023-10-28 at 9 10 41 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/7e9cadb2-56a6-4aef-93fe-b2bbec580bbb">
-_)
 
 **Step 5**
+
 Solder the components together, assemble the parts, and waterproof the newly added fifth stepper motor.
 
 <img width="370" alt="Screenshot 2023-10-28 at 9 12 23 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/b3be4acd-1e39-47e5-93e4-e7cb1da57a1b">
+
 
 <img width="580" alt="Screenshot 2023-10-28 at 9 13 32 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/f9d1756b-1027-4a53-9a4e-3671a2c46401">
 
