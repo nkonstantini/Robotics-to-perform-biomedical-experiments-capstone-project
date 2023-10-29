@@ -804,20 +804,33 @@ B: https://www.thingiverse.com/thing:1071695/comments
 
 Other waterproofing approaches
 
+The initial step involved sealing the motherboard case vents using water-resistant and conductive aluminium sheets, as demonstrated in Figure B), to prevent water ingress while also acting as a heatsink. Furthermore, the removal of the motherboard fan, as indicated in Figure C), curtailed any active influx of humid air, thereby augmenting the motherboard's protection.
+
 <img width="595" alt="Screenshot 2023-10-28 at 9 25 38 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/76f48570-0630-4cce-a4bd-26e286d1b3bb">
+
+Using chemically resistant butyl rubber gloves, a thin layer of the aerosol was applied to the underside and top of the motherboard within a fume hood. Prior to application, all wires and connections were removed, and any connection ports and capacitors were covered with electrical tape, according to Figure A).
 
 <img width="572" alt="Screenshot 2023-10-28 at 9 26 00 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/9ad8153e-d1a2-4f50-a330-900819a1512e">
 
+A blunt needle was used to apply and spread a small amount of conductive grease over all active ports in the motherboard, as well as the ports of the wires connected to the stepper motors. All the unused ports, including the micro USB and microSD card ports, were covered with electrical tape, as shown in the Figure below.
+
 <img width="566" alt="Screenshot 2023-10-28 at 9 26 29 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/9e23a9bd-4eb1-4dc5-90d3-dfd9b01ded01">
+
+Acrylic plates have been applied to the exposed ends of the v-rails to protect the interiors from corrosion, as depicted in Figures A) and B). These plates were designed and cut using a laser-cutting machine. While aluminium does not rust, due to the formation of a stable layer of aluminium oxide that shields the metal from reacting with water, it is still subject to corrosion over long periods of time.
 
 <img width="584" alt="Screenshot 2023-10-28 at 9 26 45 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/b065fda4-542f-451b-aed1-6fd358f00036">
 
-<img width="571" alt="Screenshot 2023-10-28 at 9 27 04 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/7f50a9fc-9093-489b-8617-4ab1808df2ba">
+The final motherboard waterproofing measure was to re-attach the motherboard to its housing, secure the lid back on, and secure the gaps where water could ingress with electrical tape. The areas that were taped are shown in the Figure below. Electrical tape also acts as an insulator to protect against any current leakage.
 
+<img width="571" alt="Screenshot 2023-10-28 at 9 27 04 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/7f50a9fc-9093-489b-8617-4ab1808df2ba">
 
 **Step 8**
 
 Heat control 
+
+Given the potential for prolonged operation of the PADL within an incubator maintained at 37°C, effective heat management is essential to prevent the stepper motors from overheating and experiencing damage. This was of particular concern for the tool-switching stepper motor, which cannot idle to dissipate heat in between tool changes.
+
+The conductive thermal grease is combined with double-sided tape to aid in the efficient dissipation of heat from the stepper motors.
 
 <img width="540" alt="Screenshot 2023-10-28 at 9 28 22 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/d4cec7f3-8a2c-495c-890d-5b52ac7d554d">
  
