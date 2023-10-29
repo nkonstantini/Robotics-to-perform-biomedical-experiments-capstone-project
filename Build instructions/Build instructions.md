@@ -814,6 +814,7 @@ Other waterproofing approaches
 
 <img width="571" alt="Screenshot 2023-10-28 at 9 27 04 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/7f50a9fc-9093-489b-8617-4ab1808df2ba">
 
+
 **Step 8**
 
 Heat control 
@@ -821,6 +822,7 @@ Heat control
 <img width="540" alt="Screenshot 2023-10-28 at 9 28 22 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/d4cec7f3-8a2c-495c-890d-5b52ac7d554d">
  
 <img width="620" alt="Screenshot 2023-10-28 at 9 27 23 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/7b529f75-b3fa-460b-ad13-efb31638c081">
+
 
 **Step 9**
 
