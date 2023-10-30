@@ -824,6 +824,11 @@ The final motherboard waterproofing measure was to re-attach the motherboard to 
 
 <img width="571" alt="Screenshot 2023-10-28 at 9 27 04 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/7f50a9fc-9093-489b-8617-4ab1808df2ba">
 
+The Extension Screen Cable (200cm) and Extension Power Cord (60cm) are utilised as replacements for the original Ender-3 wires. This substitution is not only due to the lack of waterproofing in the original power and screen components but also for enhanced operational convenience. The extended cables facilitate easier access to the power source, allowing seamless on-off control, and providing the flexibility to choose when to activate the G-code stored in the SD card.
+
+<img width="580" alt="Screenshot 2023-10-30 at 8 27 29 pm" src="https://github.com/nkonstantini/Robotics-to-perform-biomedical-experiments-capstone-project/assets/51041073/b3b1cc86-c0d1-4607-8386-497dba23b1ad">
+
+
 **Step 8**
 
 Heat control 
